@@ -237,6 +237,7 @@ Redux::setSection($opt_name, array(
             'title' => __('Back to Top Image', 'wp_preface'),
 
         ),
+        
         array(
             'id'    => 'menu-item-1',
             'type'  => 'text',
