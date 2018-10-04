@@ -4,4 +4,22 @@ jQuery(document).ready(function($) {
             // Animation complete.
         });
     });
+
+    $(window).resize(function() {
+
+        
+        if ($(window).width() > 640) {
+            $('#navp').css({
+                'display': 'block',
+            });
+
+
+        }
+        else{
+        	$('#navp').css({
+                'display': 'none',
+            });
+        }
+
+    });
 });

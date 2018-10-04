@@ -53,7 +53,7 @@ echo $logotext[0];?>
 							<img src="<?php echo $wp_preface['menu-mobile-image']['url']?>" alt=" " />
 						</span>
 						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil">
+							<ul id="navp" class="nav1 nav nav-wil">
 								<li class="active"><a data-hover="Home" href="<?php echo get_home_url(); ?>"><?php echo $wp_preface['menu-item-1'];?></a></li>
 
 								<li><a class="scroll" data-hover="About" href="#about"><?php echo $wp_preface['menu-item-2'];?></a></li>
